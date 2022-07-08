@@ -413,6 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   #hero{
     background-color: #000000;
+    overflow:hidden;
   }
   #hero:before {
     content: "";
