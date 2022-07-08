@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #000;
 }
 
 #preloader:before {
@@ -46,10 +46,9 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #000000;
+  border: 6px solid #fff;
   border-top-color: #e0e6e5;
   border-radius: 50%;
-  background: url('assets/img/favicon.png');
   width: 60px;
   height: 60px;
   -webkit-animation: animate-preloader 1s linear infinite;
@@ -364,6 +363,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/banner.png") top right;
   background-size: cover;
   background-color: rgb(255, 255, 255);
+  overflow:hidden;
 }
 #hero .container {
   padding-top: 70px;
