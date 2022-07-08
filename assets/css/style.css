@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #49cbbb;
+  background: #000000;
   color: #fff;
 }
 .back-to-top.active {
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -323,7 +323,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fcfcfc;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -422,6 +422,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 0;
     right: 0;
+    height: 100vh;
   }
   #hero h1 {
     font-size: 28px;
