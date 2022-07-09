@@ -619,12 +619,12 @@ section {
   font-size: 18px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #1d685f;
+  color: #0000;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #effbf9;
+  background: #eee;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
